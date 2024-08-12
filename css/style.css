@@ -422,7 +422,7 @@ a:hover {
 }
 .team-social-item:is(:hover, :focus) {
   background-color: #2196f3;
-  transition: all 1s;
+  transition: all 1.5s;
 }
 .team-social-item:is(:hover, :focus) .team-social-icon {
   fill: #ffffff;
