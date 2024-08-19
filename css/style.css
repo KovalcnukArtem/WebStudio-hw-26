@@ -552,6 +552,76 @@ a:hover {
 }
 
 
+.footer-subscribe {
+  margin-left: 93px;
+}
+
+.footer-subscribe-form {
+  display: flex;
+  align-items: end;
+}
+
+.footer-subscribe-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-subscribe-label > span {
+  margin-bottom: 20px;
+
+  text-transform: uppercase;
+
+  color:#ffffff;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: calc(16 / 14);
+}
+
+.footer-subscribe-input {
+  width: 358px;
+  height: 50px;
+
+  padding: 15px 16px;
+  margin-right: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  color:#757575;
+}
+.subscribe-btn-wrapp {
+  position: relative;
+}
+.footer-subscribe-btn {
+  width: 200px;
+  height: 50px;
+
+  padding: 10px 28px;
+  text-align: left;
+
+  background-color: #2196f3;
+  color:#ffffff;
+
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: calc(30 / 16);
+}
+
+.footer-subscribe-icon {
+  position: absolute;
+  right: 28px;
+  top: 13px;
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+}
+
+
 
 /* Секція "PORTFOLIO" */
 
@@ -740,9 +810,11 @@ a:hover {
 }
 
 .modal-close-icon {
-  width: 11px;
-  height: 11px;
-  fill: #212121;
+  fill: #000000;
+}
+
+.form-input-icon {
+  fill: #000000;
 }
 
 .modal-form {
@@ -759,7 +831,7 @@ a:hover {
 .modal-form-label > span {
   margin-bottom: 4px;
 
-  color: var(--secondary-color);
+  color: #757575;
 
   font-weight: 400;
 }
@@ -832,7 +904,7 @@ a:hover {
 }
 
 .modal-form-checkbox {
-  border: 1px solid #212121);
+  border: 1px solid #212121;
 }
 
 .modal-form-btn {
@@ -842,7 +914,7 @@ a:hover {
   margin: 0 auto;
 
   color:#ffffff;
-  background-color: var(--brand-color);
+  background-color:#2196f3;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
