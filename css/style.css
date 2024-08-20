@@ -551,7 +551,6 @@ a:hover {
   margin-bottom: 40px;
 }
 
-
 .footer-subscribe {
   margin-left: 93px;
 }
@@ -568,11 +567,8 @@ a:hover {
 
 .footer-subscribe-label > span {
   margin-bottom: 20px;
-
   text-transform: uppercase;
-
   color:#ffffff;
-
   font-size: 14px;
   font-weight: 700;
   line-height: calc(16 / 14);
@@ -581,10 +577,8 @@ a:hover {
 .footer-subscribe-input {
   width: 358px;
   height: 50px;
-
   padding: 15px 16px;
   margin-right: 12px;
-
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -597,16 +591,12 @@ a:hover {
 .footer-subscribe-btn {
   width: 200px;
   height: 50px;
-
   padding: 10px 28px;
   text-align: left;
-
   background-color: #2196f3;
   color:#ffffff;
-
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
   font-size: 16px;
   font-weight: 700;
   line-height: calc(30 / 16);
@@ -619,6 +609,14 @@ a:hover {
   width: 24px;
   height: 24px;
   fill: #ffffff;
+}
+
+.footer-subscribe-btn:hover {
+  background-color: rgba(17, 77, 125, 1.00);
+  transition: all 200ms;
+}
+.footer-subscribe-btn:active {
+  background-color: #2196f3;
 }
 
 
@@ -784,9 +782,7 @@ a:hover {
 
 .modal-title {
   margin-bottom: 14px;
-
   text-align: center;
-
   font-size: 20px;
   font-weight: 700;
   line-height: calc(23 / 20);
@@ -820,7 +816,6 @@ a:hover {
 .modal-form {
   display: flex;
   flex-direction: column;
-
   gap: 10px;
 }
 .modal-form-label {
@@ -830,18 +825,14 @@ a:hover {
 
 .modal-form-label > span {
   margin-bottom: 4px;
-
   color: #757575;
-
   font-weight: 400;
 }
 
 .modal-form-input {
   height: 40px;
   width: 100%;
-
   padding-left: 42px;
-
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
@@ -867,17 +858,12 @@ a:hover {
 .modal-form-textarea {
   width: 100%;
   height: 120px;
-
   margin-bottom: 10px;
   padding: 12px 16px;
-
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-
   outline: none;
-
   resize: none;
-
   font-family: Roboto, sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -891,7 +877,6 @@ a:hover {
 .modal-form-label-checkbox {
   display: flex;
   align-items: center;
-
   margin: 0 auto 20px;
 }
 
@@ -910,11 +895,16 @@ a:hover {
 .modal-form-btn {
   width: 200px;
   height: 50px;
-
   margin: 0 auto;
-
   color:#ffffff;
   background-color:#2196f3;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.modal-form-btn:hover {
+  background-color: rgba(17, 77, 125, 1.00);
+  transition: all 200ms;
+}
+.modal-form-btn:active {
+  background-color: #2196f3;
 }
