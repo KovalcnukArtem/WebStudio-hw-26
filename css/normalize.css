@@ -34,3 +34,12 @@ text-decoration: none;
 figure {
     margin: 0;
 }
+
+input {
+outline: none;
+}
+
+button {
+border: none;
+cursor: pointer;
+}
